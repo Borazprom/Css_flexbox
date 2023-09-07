@@ -11,13 +11,53 @@
     display: flex;
     flex-basis: 20%;
     flex-direction: column;
-    min-height: 100vh;
+    border: solid 1px black;
 }
+
+/* estatus */
+.estado {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    border-bottom: solid 1px black;
+}
+.estado .perfil {
+    display: flex;
+    align-items: center;
+}
+.estado .perfil:hover {
+    cursor: pointer;
+}
+.estado .perfil img {
+    width: 35px;
+    border-radius: 50px;
+}
+.estado .perfil .info {
+    padding: 10px;
+}
+.estado .perfil .info p {
+    font-size: 13px;
+}
+.contactos .estado .iconos {
+    display: flex;
+    align-items: center;
+}
+.contactos .estado i {
+    padding: 10px;
+    color: gray;
+}
+.contactos .estado i:hover {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+/* boton nuevo chat */
 .boton{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    height: 120px;
+    border-bottom: solid 1px black;
 }
 .boton button {
     background-color: #A491D2;
@@ -26,25 +66,35 @@
     width: 180px;
     border: none;
     font-size: 1em;
-
 }
+.boton button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+/* contactos */
 .contactos .contacto {
     display: flex;
-    height: 50px;
-    padding: 20px;
-    margin-left: 15px;
+    height: 90px;
     align-items: center;
+    border-bottom: solid 1px black;
+}
+.contactos .contacto:hover {
+    background-color: #A491D2;
+    cursor: pointer;
 }
 .contactos .contacto img {
-    width: 50px;
+    margin-left: 30px;
+    width: 60px;
     border-radius: 50px;
 }
 .contactos .contacto .info {
-    padding: 10px;
+    padding: 15px;
 }
 
 
 
+/* principal */
 
 .principal {
     display: flex;
@@ -57,6 +107,7 @@
 }
 .principal img{
     width: 300px;
+    padding-bottom: 20px;
 }
 .principal h1{
     font-size: 2.5em;
