@@ -2,7 +2,24 @@
     margin: 0;
     padding: 0;
 }
-.contenedor {
+.conteiner {
     display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+.principal {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.principal img{
+    width: 300px;
+}
+.principal h1{
+    font-size: 2.5em;
 }
