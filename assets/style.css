@@ -7,6 +7,44 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+.contactos {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.boton button {
+    background-color: #A491D2;
+    color: white;
+    padding: 13px;
+    width: 180px;
+    border: none;
+    font-size: 1em;
+
+}
+.contactos .contacto {
+    display: flex;
+    height: 50px;
+    padding: 20px;
+    margin-left: 15px;
+    align-items: center;
+}
+.contactos .contacto img {
+    width: 50px;
+    border-radius: 50px;
+}
+.contactos .contacto .info {
+    padding: 10px;
+}
+
+
+
 
 .principal {
     display: flex;
@@ -15,11 +53,12 @@
     text-align: center;
     min-height: 100vh;
     flex-direction: column;
+    background-color: rgb(227, 227, 227);
 }
-
 .principal img{
     width: 300px;
 }
 .principal h1{
     font-size: 2.5em;
 }
+
